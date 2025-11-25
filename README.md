@@ -18,6 +18,9 @@ This repository includes:
 * A focus on handling class imbalance
 * Selection of **SVC** as the final model based on **recall performance for churners**
 
+## 📚 Data Source and Attribution
+
+The data used in this project is the **[Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data)**, originally hosted on Kaggle.
 
 ## 🎯 Goal of the Project
 
@@ -34,9 +37,14 @@ After comparing multiple models, **SVC demonstrated the strongest recall and F1-
 ## 📁 Repository Structure
 
 * `project-root/`
+    * `app/`
+        * `app.py` # Streamlit app
     * `data/`
         * `raw/` # Original dataset(s)
         * `processed/` # Cleaned, transformed, feature-engineered data
+    * `models/`
+        * `model.pkl` # Final saved model
+        * `scaler.pkl` # Scaler
     * `notebooks/`
         * `data_exploration.ipynb` # EDA
         * `data_preprocessing.ipynb` # Preprocessing
@@ -129,4 +137,10 @@ Thus, **SVC was selected as the recommended model**.
 
     ```bash
     pip install -r requirements.txt
+    ```
+
+3.  Run Streamlit Interface
+
+    ```bash
+    streamlit run app/app.py
     ```
