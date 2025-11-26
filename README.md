@@ -120,8 +120,7 @@ Thus, **SVC was selected as the recommended model**.
 
 ## 🎥 Demo Video
 
-(Embed your demo video here)
-
+https://github.com/user-attachments/assets/1a0ca2b0-cf90-475c-b2fe-c24147920cce
 
 ## 🔧 Setup
 
