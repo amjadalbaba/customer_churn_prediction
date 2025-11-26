@@ -105,6 +105,6 @@ if st.button("Predict Churn"):
     prediction = model.predict(df)[0]
 
     if prediction == 1:
-        st.markdown('<div class="result-box" style="color:#b30000;">⚠️ The model predicts this customer is <b>likely</b> to churn**.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="result-box" style="color:#b30000;">⚠️ The model predicts this customer is <b>likely</b> to churn.</div>', unsafe_allow_html=True)
     else:
         st.markdown('<div class="result-box" style="color:#008000;">✅ The customer is <b>not likely</b> to churn</div>', unsafe_allow_html=True)
